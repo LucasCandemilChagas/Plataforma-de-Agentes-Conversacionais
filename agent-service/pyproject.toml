@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meu-projeto-2"
+version = "0.1.0"
+description = "Projeto gerado a partir do requirements_2.txt"
+requires-python = ">=3.8"
+dependencies = [
+"annotated-doc0.0.5",
+"annotated-types0.8.0",
+"anyio4.14.2",
+"async0.6.2",
+"autopep82.3.2",
+"cffi2.1.1",
+"click8.4.2",
+"cryptography50.0.0",
+"exceptiongroup1.3.1",
+"fastapi0.141.1",
+"greenlet3.5.5",
+"h110.16.0",
+"idna3.19",
+"oracledb4.0.2",
+"pycodestyle2.14.0",
+"pycparser3.0",
+"pydantic2.13.4",
+"pydantic-settings2.15.0",
+"pydantic_core2.46.4",
+"python-dotenv1.2.3",
+"SQLAlchemy2.0.52",
+"sqlmodel0.0.39",
+"starlette1.6.0",
+"tomli2.4.1",
+"typing-inspection0.4.4",
+"typing_extensions4.16.0",
+"uvicorn==0.52.4"
+]
